@@ -7,4 +7,4 @@
 
 
 ### 待改
-  重接,把de部分的output剩real和wrong
+  重接,把SYN去掉
