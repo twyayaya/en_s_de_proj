@@ -3,7 +3,7 @@
 
 ## 目前架構<br>
 09:45<br>
-  ![](https://github.com/twyayaya/en_s_de_proj/blob/main/pic/en_sram_de_pic2.jpg)<br>
+![](https://github.com/twyayaya/en_s_de_proj/blob/main/pic/en_sram_de_pic2.jpg)<br>
   ---
   - Input
     - W_EN
