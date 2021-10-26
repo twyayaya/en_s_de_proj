@@ -63,7 +63,9 @@ reg [31:0] selectt;
 //OUT port
 //wire ERR, SGL, DBL;
 //wire [39:0] OUTt;
-wire [6:0] SYN;
+
+//wire [6:0] SYN;
+
 //wire [5:0] testt;
 wire [31:0] real_data;
 //wire [7:0] parity_data;
@@ -86,7 +88,9 @@ test6 test6_0 (
     //.DBL(DBL),
     .wrong_real_data(wrong_real_data),
     //.OUTt(OUTt),
-    .SYN(SYN),
+    
+    //.SYN(SYN),
+    
     .real_data(real_data),
     //.parity_data(parity_data),
     //.testt(testt)
@@ -140,4 +144,3 @@ R_ADDR =5;
 end
 
 endmodule
-
