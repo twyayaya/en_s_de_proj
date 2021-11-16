@@ -1,9 +1,9 @@
-# 紀錄日期 : 2021.10.30<br>
+# 紀錄日期 : 2021.11.16<br>
 
 
 ## 目前架構<br>
-64bit版本,圖待改<br>
-![](https://github.com/twyayaya/en_s_de_proj/blob/main/pic/en_sram_de_pic2.jpg)<br>
+64bit版本<br>
+![](https://github.com/twyayaya/en_s_de_proj/blob/main/pic/1116_1.jpg)<br>
   ---
   - Input
     - W_EN
@@ -18,9 +18,12 @@
   - Onput
     - real_data[63:0]
     - R_ADDRr[13:0]
-    - wrong_real_data[13:0]
+    - wrong_real_data[63:0]
+    - SGLl
+    - DBLl
+    - 
   --- 
 
 
 ### 待改
-  A<br>
+  DBLl有問題<br>
