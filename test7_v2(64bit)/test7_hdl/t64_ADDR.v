@@ -8,7 +8,7 @@ module t64_ADDR (input [13:0] R_ADDR,
     output reg  [13:0] R_ADDRr
 );
 
-always @(*) begin
+always @(real_data or wrong_real_data) begin
     R_ADDRr = 0;
     if(R_EN )begin
         R_ADDRr = 0;
