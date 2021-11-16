@@ -5,6 +5,12 @@ module de64_2 (
     input [7:0] SYNn,
     output [63:0] real_data,
     output [63:0] wrong_real_data
+    //new
+    //input SGLl,
+    //input DBLl,
+    
+    //output SGL,
+    //output DBL
 );
 
 reg [71:0] LOC;
@@ -94,8 +100,11 @@ reg[63:0] w;
         w = INn[63:0];
         //
     end
-    //
+    
     assign wrong_real_data = w;
     assign real_data = r;
+    
     //
+    //assign SGL = SGLl;
+    //assign DBL = SGLl;
 endmodule
