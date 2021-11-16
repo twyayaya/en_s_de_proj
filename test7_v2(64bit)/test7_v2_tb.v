@@ -60,6 +60,7 @@ wire [63:0] real_data;
 wire [63:0] wrong_real_data;
 reg [13:0] R_ADDRr;
 
+reg SGLl , DBLl;
 
 //////////////////////////////////////////////////////////////////////
 // Instantiate Unit Under Test:  test7_v2
@@ -77,7 +78,11 @@ test7_v2 test7_v2_0 (
     // Outputs
     .R_ADDRr(R_ADDRr),
     .real_data(real_data),
-    .wrong_real_data(wrong_real_data)
+    .wrong_real_data(wrong_real_data),
+    
+    .SGLl(SGLl),
+    .DBLl(DBLl)
+    
 
 );
 
