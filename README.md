@@ -26,14 +26,22 @@
 
 ## get_address_new <br>
 主要根據SB DB做判斷<br>
-- R_EN = 0
-  沒讀取動作, R_ADDRr = 0 , error_data = 0
-    
-    
-3. 11
-4. 11
-5. 111
-6. 
+#### R_EN = 0
+- 沒讀取動作
+- R_ADDRr = 0 , error_data = 0
+
+#### R_EN = 1 , DB = 0 , DB = 0
+- 有讀取動作, 但data都正確 ,所以不輸出值
+- R_ADDRr = 0 , error_data = 0
+
+#### R_EN = 1 , DB = 0 , SB = 1
+- 有讀取動作, 但data有單個錯誤但被修正 ,輸出位置和錯誤的data( real_data != wrong_real_data )
+- R_ADDRr = R_ADDR , error_data = wrong_real_data
+
+#### R_EN = 1 , DB = 1 , SB = 1
+- 有讀取動作, 但data有多個錯誤且沒被修正 ,輸出位置和錯誤的data( real_data = wrong_real_data )
+- R_ADDRr = R_ADDR , error_data = wrong_real_data
+     
   ---
   - Input
     - [13:0] R_ADDR
@@ -47,7 +55,8 @@
   - Onput
     - [63:0] error_data
     - [13:0] R_ADDRr
-  --- 
+  ---
+#### 官網敘述<br>
 |DB_DETECT |  SB_CORRECT | 意思 |
 |:----: |:----:| :----:|
 | 0 |  0 | 沒error,data正確不須更正 |
