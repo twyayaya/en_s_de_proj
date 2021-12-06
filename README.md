@@ -58,6 +58,15 @@
 - 有讀取動作, 但data有多個錯誤且沒被修正( real_data = wrong_real_data ) ,輸出位置和錯誤的data
 - R_ADDRr = R_ADDR , error_data = wrong_real_data
 
+#### NO error
+- real_data = wrong_real_data : 正確的data
+
+#### 單個 error
+- real_data                   : 更正過的data
+- wrong_real_data             : 沒更正過的data
+
+#### 多個 error
+- real_data = wrong_real_data : 沒更正過的data
 
 #### 官網敘述<br>
 |DB_DETECT |  SB_CORRECT | 意思 |
