@@ -65,7 +65,7 @@
 - real_data                   : 更正過的data
 - wrong_real_data             : 沒更正過的data
 
-#### 多個 error
+#### 兩個 error
 - real_data = wrong_real_data : 沒更正過的data
 
 #### 官網敘述<br>
@@ -73,7 +73,7 @@
 |:----: |:----:| :----:|
 | 0 |  0 | 沒error,data正確不須更正 |
 | 0 |  1 | 單個error被偵測到,在output會被更正 |
-| 1 |  1 | 多個error被偵測到,但不會更正 |
+| 1 |  1 | 兩個error被偵測到,但不會更正 |
 
 ![](https://github.com/twyayaya/en_s_de_proj/blob/main/get_address_new/wave.jpg)<br>
 
