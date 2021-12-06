@@ -25,12 +25,13 @@
   --- 
 
 ## get_address_new <br>
+會根據SB DB做更正
   ---
   - Input
     - [13:0] R_ADDR
     - R_EN
-    - [63:0] real_data
-    - [63:0] wrong_real_data
+    - [63:0] real_data 
+    - [63:0] wrong_real_data 
     - DB_DETECT
     - SB_CORRECT
     
@@ -39,7 +40,13 @@
     - [63:0] error_data
     - [13:0] R_ADDRr
   --- 
-  AA
+|DB_DETECT |  SB_CORRECT | 意思 |
+|:----: |:----:| :----:|
+| 0 |  0 | 沒error,data正確不須更正 |
+| 0 |  1 | 單個error被偵測到,在output會被更正 |
+| 1 |  1 | 多個error被偵測到,但不會更正 |
+
+
 
 ### 待改
   DBLl有問題<br>
