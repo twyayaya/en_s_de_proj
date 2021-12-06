@@ -25,7 +25,13 @@
   --- 
 
 ## get_address_new <br>
-會根據SB DB做更正
+主要根據SB DB做判斷<br>
+1. R_EN = 0 
+    dd
+3. 11
+4. 11
+5. 111
+6. 
   ---
   - Input
     - [13:0] R_ADDR
