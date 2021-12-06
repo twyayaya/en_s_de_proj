@@ -51,11 +51,11 @@
 - R_ADDRr = 0 , error_data = 0
 
 #### R_EN = 1 , DB = 0 , SB = 1
-- 有讀取動作, 但data有單個錯誤但被修正 ,輸出位置和錯誤的data( real_data != wrong_real_data )
+- 有讀取動作, 但data有單個錯誤但被修正( real_data != wrong_real_data ) ,輸出位置和錯誤的data
 - R_ADDRr = R_ADDR , error_data = wrong_real_data
 
 #### R_EN = 1 , DB = 1 , SB = 1
-- 有讀取動作, 但data有多個錯誤且沒被修正 ,輸出位置和錯誤的data( real_data = wrong_real_data )
+- 有讀取動作, 但data有多個錯誤且沒被修正( real_data = wrong_real_data ) ,輸出位置和錯誤的data
 - R_ADDRr = R_ADDR , error_data = wrong_real_data
 
 
