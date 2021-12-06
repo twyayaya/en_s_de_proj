@@ -1,4 +1,4 @@
-# 紀錄日期 : 2021.11.16<br>
+# 紀錄日期 : 2021.12.6<br>
 
 
 ## 目前架構<br>
@@ -24,6 +24,22 @@
     - 
   --- 
 
+## get_address_new <br>
+  ---
+  - Input
+    - [13:0] R_ADDR
+    - R_EN
+    - [63:0] real_data
+    - [63:0] wrong_real_data
+    - DB_DETECT
+    - SB_CORRECT
+    
+    
+  - Onput
+    - [63:0] error_data
+    - [13:0] R_ADDRr
+  --- 
+  AA
 
 ### 待改
   DBLl有問題<br>
