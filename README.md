@@ -46,7 +46,7 @@
 - 沒讀取動作
 - R_ADDRr = 0 , error_data = 0
 
-#### R_EN = 1 , DB = 0 , DB = 0
+#### R_EN = 1 , DB = 0 , SB = 0
 - 有讀取動作, 但data都正確 ,所以不輸出值
 - R_ADDRr = 0 , error_data = 0
 
