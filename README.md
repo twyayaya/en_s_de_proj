@@ -26,8 +26,9 @@
 
 ## get_address_new <br>
 主要根據SB DB做判斷<br>
-1. R_EN = 0 
+1.  R_EN = 0
     dd
+    
 3. 11
 4. 11
 5. 111
