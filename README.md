@@ -26,8 +26,8 @@
 
 ## get_address_new <br>
 主要根據SB DB做判斷<br>
-1.  R_EN = 0 
-  dd
+1.  R_EN = 0
+    沒讀取動作, R_ADDRr = 0 , error_data = 0
     
 3. 11
 4. 11
