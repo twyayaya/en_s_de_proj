@@ -26,6 +26,22 @@
 
 ## get_address_new <br>
 主要根據SB DB做判斷<br>
+  
+  ---
+  - Input
+    - [13:0] R_ADDR
+    - R_EN
+    - [63:0] real_data 
+    - [63:0] wrong_real_data 
+    - DB_DETECT
+    - SB_CORRECT
+    
+    
+  - Onput
+    - [63:0] error_data
+    - [13:0] R_ADDRr
+  ---
+
 #### R_EN = 0
 - 沒讀取動作
 - R_ADDRr = 0 , error_data = 0
@@ -41,21 +57,8 @@
 #### R_EN = 1 , DB = 1 , SB = 1
 - 有讀取動作, 但data有多個錯誤且沒被修正 ,輸出位置和錯誤的data( real_data = wrong_real_data )
 - R_ADDRr = R_ADDR , error_data = wrong_real_data
-     
-  ---
-  - Input
-    - [13:0] R_ADDR
-    - R_EN
-    - [63:0] real_data 
-    - [63:0] wrong_real_data 
-    - DB_DETECT
-    - SB_CORRECT
-    
-    
-  - Onput
-    - [63:0] error_data
-    - [13:0] R_ADDRr
-  ---
+
+
 #### 官網敘述<br>
 |DB_DETECT |  SB_CORRECT | 意思 |
 |:----: |:----:| :----:|
@@ -63,7 +66,7 @@
 | 0 |  1 | 單個error被偵測到,在output會被更正 |
 | 1 |  1 | 多個error被偵測到,但不會更正 |
 
-
+![](https://github.com/twyayaya/en_s_de_proj/blob/main/get_address_new/wave.jpg)<br>
 
 ### 待改
   DBLl有問題<br>
