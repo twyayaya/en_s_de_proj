@@ -79,3 +79,8 @@
 
 ### 待改
   DBLl有問題<br>
+  get address new的<br>
+  ```
+  if( (SB_CORRECT != DB_DETECT) && (SB_CORRECT ==1) )begin // singel error , will be corrected,( || (real_data != wrong_real_data) )
+  ```
+  (real_data != wrong_real_data)在LSRAM(ECC)會出問題
