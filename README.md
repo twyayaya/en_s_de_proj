@@ -1,4 +1,4 @@
-# 紀錄日期 : 2021.12.6<br>
+# 紀錄日期 : 2021.12.9<br>
 
 
 ## 目前架構<br>
@@ -26,7 +26,8 @@
 
 ## get_address_new <br>
 主要根據SB DB做判斷<br>
-  
+目前不管單個or雙個error發生,都會輸出real_data
+
   ---
   - Input
     - [13:0] R_ADDR
