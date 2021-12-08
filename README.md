@@ -83,4 +83,4 @@
   ```
   if( (SB_CORRECT != DB_DETECT) && (SB_CORRECT ==1) )begin // singel error , will be corrected,( || (real_data != wrong_real_data) )
   ```
-  (real_data != wrong_real_data)在LSRAM(ECC)會出問題
+  (real_data != wrong_real_data)在LSRAM(ECC)會出問題,因為wrong_real_data是直接抓W_DATA會和R_ADDR,R_DATA出問題
