@@ -78,8 +78,8 @@
 ![](https://github.com/twyayaya/en_s_de_proj/blob/main/get_address_new/wave.jpg)<br>
 
 ### 待改
-  DBLl有問題<br>
-  get address new的<br>
+  1.  DBLl有問題<br>
+  2.  get address new的<br>
   ```
   if( (SB_CORRECT != DB_DETECT) && (SB_CORRECT ==1) )begin // singel error , will be corrected,( || (real_data != wrong_real_data) )
   ```
