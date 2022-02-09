@@ -1,0 +1,20 @@
+@W: CG296 :"C:\Users\Kai\Desktop\test2_RP\hdl\comb.v":30:8:30:15|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Kai\Desktop\test2_RP\hdl\comb.v":32:19:32:27|Referenced variable checkbits is not in sensitivity list.
+@W: CG296 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":30:8:30:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":31:18:31:25|Referenced variable i_R_ADDR is not in sensitivity list.
+@W: CG290 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":33:18:33:25|Referenced variable i_R_DATA is not in sensitivity list.
+@W: CG296 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":37:8:37:15|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":39:18:39:27|Referenced variable o_R_ADDR_1 is not in sensitivity list.
+@W: CG290 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":38:18:38:27|Referenced variable o_R_DATA_1 is not in sensitivity list.
+@W: CG296 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\error_gen.v":14:8:14:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\error_gen.v":16:9:16:15|Referenced variable selectt is not in sensitivity list.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 79 to 78 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 69 to 68 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 59 to 58 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 49 to 48 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 39 to 38 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 29 to 28 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 19 to 18 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 9 to 8 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de64_2.v":4:17:4:19|Input port bits 71 to 64 of INn[71:0] are unused. Assign logic for all port bits or change the input port size.
+

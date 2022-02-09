@@ -1,0 +1,203 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M
+Install: C:\Microsemi\Libero_SoC_v12.5\SynplifyPro
+OS: Windows 6.2
+
+Hostname: MSI
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202003syn, Build 175R, Built Jun  5 2020 09:18:53, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M
+Install: C:\Microsemi\Libero_SoC_v12.5\SynplifyPro
+OS: Windows 6.2
+
+Hostname: MSI
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202003syn, Build 175R, Built Jun  5 2020 09:18:53, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\Kai\Desktop\test2_RP\component\polarfire_syn_comps.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\hdl\comb.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\component\work\test2\test2.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\hdl\PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\error_gen.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de64_1.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de64_2.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de_v1.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\en64_RP.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test6.v" (library work)
+@I::"C:\Users\Kai\Desktop\test2_RP\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0_0\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v" (library work)
+Verilog syntax check successful!
+File C:\Users\Kai\Desktop\test2_RP\component\polarfire_syn_comps.v changed - recompiling
+File C:\Users\Kai\Desktop\test2_RP\component\work\test2\test2.v changed - recompiling
+Selecting top level module test2
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\comb.v":21:7:21:10|Synthesizing module comb in library work.
+@W: CG296 :"C:\Users\Kai\Desktop\test2_RP\hdl\comb.v":30:8:30:15|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Kai\Desktop\test2_RP\hdl\comb.v":32:19:32:27|Referenced variable checkbits is not in sensitivity list.
+Running optimization stage 1 on comb .......
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de64_1.v":3:7:3:12|Synthesizing module de64_1 in library work.
+Running optimization stage 1 on de64_1 .......
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de64_2.v":3:7:3:12|Synthesizing module de64_2 in library work.
+Running optimization stage 1 on de64_2 .......
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de_v1.v":3:7:3:11|Synthesizing module de_v1 in library work.
+Running optimization stage 1 on de_v1 .......
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":1:7:1:19|Synthesizing module delay_a_clock in library work.
+@W: CG296 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":30:8:30:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":31:18:31:25|Referenced variable i_R_ADDR is not in sensitivity list.
+@W: CG290 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":33:18:33:25|Referenced variable i_R_DATA is not in sensitivity list.
+@W: CG296 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":37:8:37:15|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":39:18:39:27|Referenced variable o_R_ADDR_1 is not in sensitivity list.
+@W: CG290 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":38:18:38:27|Referenced variable o_R_DATA_1 is not in sensitivity list.
+Running optimization stage 1 on delay_a_clock .......
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\en64_RP.v":3:7:3:14|Synthesizing module en64_RP2 in library work.
+Running optimization stage 1 on en64_RP2 .......
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\error_gen.v":4:7:4:15|Synthesizing module error_gen in library work.
+@W: CG296 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\error_gen.v":14:8:14:10|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\error_gen.v":16:9:16:15|Referenced variable selectt is not in sensitivity list.
+Running optimization stage 1 on error_gen .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":199:7:199:9|Synthesizing module OR4 in library work.
+Running optimization stage 1 on OR4 .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":96:7:96:10|Synthesizing module CFG3 in library work.
+Running optimization stage 1 on CFG3 .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":133:7:133:9|Synthesizing module OR2 in library work.
+Running optimization stage 1 on OR2 .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":578:7:578:13|Synthesizing module RAM1K20 in library work.
+Running optimization stage 1 on RAM1K20 .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":102:7:102:10|Synthesizing module CFG2 in library work.
+Running optimization stage 1 on CFG2 .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":223:7:223:9|Synthesizing module INV in library work.
+Running optimization stage 1 on INV .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v":5:7:5:55|Synthesizing module PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM in library work.
+Running optimization stage 1 on PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM .......
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0_0\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v":5:7:5:43|Synthesizing module PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM in library work.
+Running optimization stage 1 on PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM .......
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.v":9:7:9:18|Synthesizing module PF_TPSRAM_C0 in library work.
+Running optimization stage 1 on PF_TPSRAM_C0 .......
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":3:7:3:11|Synthesizing module test5 in library work.
+Running optimization stage 1 on test5 .......
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test6.v":3:7:3:23|Synthesizing module test6_for_compare in library work.
+Running optimization stage 1 on test6_for_compare .......
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\component\work\test2\test2.v":9:7:9:11|Synthesizing module test2 in library work.
+Running optimization stage 1 on test2 .......
+Running optimization stage 2 on test2 .......
+Running optimization stage 2 on test6_for_compare .......
+@N: CL159 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test6.v":6:13:6:20|Input o_R_DATA is unused.
+Running optimization stage 2 on test5 .......
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 79 to 78 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 69 to 68 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 59 to 58 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 49 to 48 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 39 to 38 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 29 to 28 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 19 to 18 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":7:14:7:23|Input port bits 9 to 8 of data_80_in[79:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on PF_TPSRAM_C0 .......
+Running optimization stage 2 on PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM .......
+Running optimization stage 2 on PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM .......
+Running optimization stage 2 on VCC .......
+Running optimization stage 2 on GND .......
+Running optimization stage 2 on INV .......
+Running optimization stage 2 on CFG2 .......
+Running optimization stage 2 on RAM1K20 .......
+Running optimization stage 2 on OR2 .......
+Running optimization stage 2 on CFG3 .......
+Running optimization stage 2 on OR4 .......
+Running optimization stage 2 on error_gen .......
+Running optimization stage 2 on en64_RP2 .......
+@N: CL159 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\en64_RP.v":6:10:6:12|Input clk is unused.
+Running optimization stage 2 on delay_a_clock .......
+@N: CL159 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":4:10:4:12|Input clk is unused.
+Running optimization stage 2 on de_v1 .......
+Running optimization stage 2 on de64_2 .......
+@W: CL246 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de64_2.v":4:17:4:19|Input port bits 71 to 64 of INn[71:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on de64_1 .......
+@N: CL159 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de64_1.v":5:10:5:12|Input clk is unused.
+Running optimization stage 2 on comb .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\Kai\Desktop\test2_RP\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 162MB peak: 162MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+
+Process completed successfully.
+# Tue Feb  8 01:35:02 2022
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M
+Install: C:\Microsemi\Libero_SoC_v12.5\SynplifyPro
+OS: Windows 6.2
+
+Hostname: MSI
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202003syn, Build 175R, Built Jun  5 2020 09:18:53, @
+
+@N|Running in 64-bit mode
+File C:\Users\Kai\Desktop\test2_RP\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 95MB peak: 96MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Feb  8 01:35:02 2022
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\Kai\Desktop\test2_RP\synthesis\synwork\test2_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+
+Process completed successfully.
+# Tue Feb  8 01:35:02 2022
+
+###########################################################]

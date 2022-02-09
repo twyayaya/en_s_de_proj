@@ -1,0 +1,33 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.5 12.900.11.2
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: PolarFire , Die: MPF300TS , Package: FCG1152 , Speed grade: -1 
+
+# Date generated: Tue Feb  8 01:35:29 2022 
+
+
+#
+# IO banks setting
+#
+
+set_iobank -bank_name Bank3 -vcci 3.30 -fixed true
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+
+#
+# Core cell constraints
+#
+

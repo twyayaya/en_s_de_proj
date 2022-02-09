@@ -1,0 +1,435 @@
+m255
+K4
+z2
+!s11f vlog 2019.4 2019.10, Oct 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kai/Desktop/test2_RP/simulation
+vcomb
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1643297660
+!i10b 1
+!s100 1^5AQCXBZB2dVnTjN_EY62
+!s11b Rc1YdX6?<X:Mh6Dm>Ml>h1
+Ii8Bbm]M:NlDB4kU^=]PDA1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1642838424
+8C:/Users/Kai/Desktop/test2_RP/hdl/comb.v
+FC:/Users/Kai/Desktop/test2_RP/hdl/comb.v
+!i122 -1
+Z4 L0 21
+Z5 OW;L;2019.4;69
+r1
+!s85 0
+31
+Z6 !s108 1643297660.000000
+!s107 C:/Users/Kai/Desktop/test2_RP/stimulus/test2_tb.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+Z7 !s90 -reportprogress|300|+incdir+C:/Users/Kai/Desktop/test2_RP/stimulus|-sv|-mfcu|-work|presynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/stimulus/test2_tb.v|
+!s101 -O0
+!i113 1
+Z8 o-sv -mfcu -work presynth -O0
+Z9 !s92 +incdir+C:/Users/Kai/Desktop/test2_RP/stimulus -sv -mfcu -work presynth -O0
+Z10 tCvgOpt 0
+vde64_1
+R1
+Z11 !s110 1643297657
+!i10b 1
+!s100 9f2Sk;bKCS:oAaSS87KF70
+!s11b Z0]AjdNNRmVQmoQ=1VnX60
+IeTF]i3R<a]BHb8aB[GWKb3
+R3
+S1
+R0
+w1642825599
+8C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/de_v1/de64_1.v
+FC:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/de_v1/de64_1.v
+!i122 -1
+L0 3
+R5
+r1
+!s85 0
+31
+Z12 !s108 1643297657.000000
+!s107 C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/de_v1/de64_1.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-mfcu|-work|presynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/de_v1/de64_1.v|
+!s101 -O0
+!i113 1
+R8
+R10
+vde64_2
+R1
+Z13 !s110 1643297658
+!i10b 1
+!s100 mNEcJDR;@f@_[d_dkVPF@0
+!s11b m1E=GL?0oiPSW1d;2fDEU0
+I1aPHGEPO58C>n2EQbTd[S0
+R3
+S1
+R0
+w1642824983
+8C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/de_v1/de64_2.v
+FC:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/de_v1/de64_2.v
+!i122 -1
+L0 3
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/de_v1/de64_2.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-mfcu|-work|presynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/de_v1/de64_2.v|
+!s101 -O0
+!i113 1
+R8
+R10
+vde_v1
+R1
+R13
+!i10b 1
+!s100 iQ_9z^M??GhR5e6dfEPld1
+!s11b >kU[mEomf;Rz5a?IYPF9m2
+I]1g@SU5d]RWBlG2Wl>hkY1
+R3
+S1
+R0
+w1642824991
+8C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/de_v1/de_v1.v
+FC:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/de_v1/de_v1.v
+!i122 -1
+L0 3
+R5
+r1
+!s85 0
+31
+Z14 !s108 1643297658.000000
+!s107 C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/de_v1/de_v1.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-mfcu|-work|presynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/de_v1/de_v1.v|
+!s101 -O0
+!i113 1
+R8
+R10
+vdelay_a_clock
+R1
+R13
+!i10b 1
+!s100 m;G=i:MkLbNaA`6AQi1B]2
+!s11b 4Ak>JM6HCe0KW296X6bQX2
+INK[oJ1X3DLHnaeJd_CnjN0
+R3
+S1
+R0
+w1642834262
+8C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/delay_a_clock.v
+FC:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/delay_a_clock.v
+!i122 -1
+L0 1
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/delay_a_clock.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-mfcu|-work|presynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/delay_a_clock.v|
+!s101 -O0
+!i113 1
+R8
+R10
+ven64_RP2
+R1
+Z15 !s110 1643297659
+!i10b 1
+!s100 c@88eKgHlb;Jf4cOZFIkY3
+!s11b 7W=K4=YNRc^VV^aaVUn9D0
+IzL]]8^NR^GX]j3?IAEH8B2
+R3
+S1
+R0
+Z16 w1642823983
+8C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/en64_RP.v
+FC:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/en64_RP.v
+!i122 -1
+L0 3
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/en64_RP.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-mfcu|-work|presynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/HDL_RP/en64_RP.v|
+!s101 -O0
+!i113 1
+R8
+R10
+nen64_@r@p2
+verror_gen
+R1
+R15
+!i10b 1
+!s100 mk:XUT1EVTUzi71jCZ][j3
+!s11b =M@6oUm4Smm[4FEmkzIS70
+I9<I61FLaQ4J^]c0h5P4[@3
+R3
+S1
+R0
+w1642836938
+8C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/error_gen.v
+FC:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/error_gen.v
+!i122 -1
+L0 4
+R5
+r1
+!s85 0
+31
+Z17 !s108 1643297659.000000
+!s107 C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/error_gen.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-mfcu|-work|presynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/error_gen.v|
+!s101 -O0
+!i113 1
+R8
+R10
+vPF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM
+R1
+R2
+!i10b 1
+!s100 MY:>2^8doQHdBkbSiD7S]2
+!s11b `10F;n]IEBMfEe>J:]l0W3
+I:PTS:O=[AQU]TP3KFka2Y0
+R3
+S1
+R0
+w1643297281
+8C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v
+FC:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+Z18 !s107 C:/Users/Kai/Desktop/test2_RP/stimulus/test2_tb.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+R7
+!s101 -O0
+!i113 1
+R8
+R9
+R10
+n@p@f_@s@r@a@m_@a@h@b@l_@a@x@i_@c1_@p@f_@t@p@s@r@a@m_@a@h@b_@a@x@i_0_@p@f_@t@p@s@r@a@m
+vPF_TPSRAM_C0
+R1
+R11
+!i10b 1
+!s100 bWTka:J=IALR=I??O>3Nh1
+!s11b 3ahj9>a4V`VXCBhU<;iI22
+I0ggUEVa^c7o43MWW]I0oi2
+R3
+S1
+R0
+Z19 w1642833469
+8C:/Users/Kai/Desktop/test2_RP/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.v
+FC:/Users/Kai/Desktop/test2_RP/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Kai/Desktop/test2_RP/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-mfcu|-work|presynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.v|
+!s101 -O0
+!i113 1
+R8
+R10
+n@p@f_@t@p@s@r@a@m_@c0
+vPF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM
+R1
+R11
+!i10b 1
+!s100 zg<?4DQD3<0X>@n3:XUA93
+!s11b G3gLYKe8j666kn[OVKUV91
+I;h=@H>EGmAmzh[ZfW`Y4g1
+R3
+S1
+R0
+R19
+8C:/Users/Kai/Desktop/test2_RP/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v
+FC:/Users/Kai/Desktop/test2_RP/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+!s108 1643297656.000000
+!s107 C:/Users/Kai/Desktop/test2_RP/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-mfcu|-work|presynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v|
+!s101 -O0
+!i113 1
+R8
+R10
+n@p@f_@t@p@s@r@a@m_@c0_@p@f_@t@p@s@r@a@m_@c0_0_@p@f_@t@p@s@r@a@m
+vtest1
+R1
+Z20 !s110 1642832139
+!i10b 1
+!s100 cPnLffD;ci15LF7fG949`1
+!s11b B:cg74e8@zdJYz33zWk]U2
+I9[cNDY6^SHRMLBom?WAf=3
+R3
+S1
+R0
+w1642825483
+8C:/Users/Kai/Desktop/test2_RP/component/work/test1/test1.v
+FC:/Users/Kai/Desktop/test2_RP/component/work/test1/test1.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+Z21 !s108 1642832139.000000
+!s107 C:/Users/Kai/Desktop/test2_RP/component/work/test1/test1.v|
+!s90 -reportprogress|300|-sv|-work|presynth|C:/Users/Kai/Desktop/test2_RP/component/work/test1/test1.v|
+!s101 -O0
+!i113 1
+Z22 o-sv -work presynth -O0
+R10
+vtest1_tb
+R1
+R20
+!i10b 1
+!s100 36F>je`m=FXBK9YFF50h[1
+!s11b 8c=J[VU1jI^h@9ne3RJL53
+I=PVW`]=FV8JN>ZmLNCh1h0
+R3
+S1
+R0
+w1642832107
+8C:/Users/Kai/Desktop/test2_RP/stimulus/test1_tb.v
+FC:/Users/Kai/Desktop/test2_RP/stimulus/test1_tb.v
+!i122 -1
+R4
+R5
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/Kai/Desktop/test2_RP/stimulus/test1_tb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/Kai/Desktop/test2_RP/stimulus|-sv|-work|presynth|C:/Users/Kai/Desktop/test2_RP/stimulus/test1_tb.v|
+!s101 -O0
+!i113 1
+R22
+!s92 +incdir+C:/Users/Kai/Desktop/test2_RP/stimulus -sv -work presynth -O0
+R10
+vtest2
+R1
+R2
+!i10b 1
+!s100 @5^1]4eC=2Q]M<C?LKcg81
+!s11b PG2ooKa2BY5[Hnj>58nX;0
+I3Bal=z2=@KGA6aHCA>WTH0
+R3
+S1
+R0
+w1643297329
+8C:/Users/Kai/Desktop/test2_RP/component/work/test2/test2.v
+FC:/Users/Kai/Desktop/test2_RP/component/work/test2/test2.v
+!i122 -1
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Kai/Desktop/test2_RP/component/work/test2/test2.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-mfcu|-work|presynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/component/work/test2/test2.v|
+!s101 -O0
+!i113 1
+R8
+R10
+vtest2_tb
+R1
+R2
+!i10b 1
+!s100 g7zn^i`2HH2[la;YIoMbl2
+!s11b 24S^R0NIWcQA;Y?gmN[=b0
+IR7]D3F12FfilUb0HMNZlN3
+R3
+S1
+R0
+w1643288182
+8C:/Users/Kai/Desktop/test2_RP/stimulus/test2_tb.v
+FC:/Users/Kai/Desktop/test2_RP/stimulus/test2_tb.v
+!i122 -1
+R4
+R5
+r1
+!s85 0
+31
+R6
+R18
+R7
+!s101 -O0
+!i113 1
+R8
+R9
+R10
+vtest5
+R1
+R15
+!i10b 1
+!s100 :eo1>EGn;b67gF>2K9FC82
+!s11b _QP`[^9_9mSV07QO4eOzJ3
+I]CdTzX0QL7`ZIVf80ZI6O1
+R3
+S1
+R0
+R16
+8C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/test5.v
+FC:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/test5.v
+!i122 -1
+L0 3
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/test5.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-mfcu|-work|presynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/test5.v|
+!s101 -O0
+!i113 1
+R8
+R10
+vtest6_for_compare
+R1
+R2
+!i10b 1
+!s100 oZE?G46ngPnlQnHVTQj>a2
+!s11b KeTHU3KSdzoo[eCTS:`7W3
+I]_Bj_OFBX69_N?3ejh;Ec0
+R3
+S1
+R0
+w1642839929
+8C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/test6.v
+FC:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/test6.v
+!i122 -1
+L0 3
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/test6.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-mfcu|-work|presynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/test2_RP_HDL/test6.v|
+!s101 -O0
+!i113 1
+R8
+R10

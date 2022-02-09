@@ -1,0 +1,329 @@
+m255
+K4
+z2
+!s11f vlog 2019.4 2019.10, Oct 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kai/Desktop/test2_RP/simulation
+vcomb
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1644285253
+!i10b 1
+!s100 OFCK3c2H43E;NVOM46gkY0
+!s11b N0ZLS=E>8@5=f:k`kG>3C0
+ID;d6_7SX=T3f`gDa8QP^l0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1642838424
+8C:/Users/Kai/Desktop/test2_RP/hdl/comb.v
+FC:/Users/Kai/Desktop/test2_RP/hdl/comb.v
+!i122 -1
+Z4 L0 21
+Z5 OW;L;2019.4;69
+r1
+!s85 0
+31
+Z6 !s108 1644285253.000000
+!s107 C:/Users/Kai/Desktop/test2_RP/stimulus/test2_tb.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|
+Z7 !s90 -reportprogress|300|+incdir+C:/Users/Kai/Desktop/test2_RP/stimulus|-sv|-mfcu|-work|postsynth|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/stimulus/test2_tb.v|
+!s101 -O0
+!i113 1
+Z8 o-sv -mfcu -work postsynth -O0
+Z9 !s92 +incdir+C:/Users/Kai/Desktop/test2_RP/stimulus -sv -mfcu -work postsynth -O0
+Z10 tCvgOpt 0
+vde64_1
+R1
+R2
+!i10b 1
+!s100 WYfjMD@RmS1@_2F:FMS942
+!s11b zA<OigKz_EY[BmT5Thg;g3
+IeG5a3Ka1KmL`N7RST5U3E0
+R3
+S1
+R0
+Z11 w1644255334
+Z12 8C:/Users/Kai/Desktop/test2_RP/synthesis/test2.v
+Z13 FC:/Users/Kai/Desktop/test2_RP/synthesis/test2.v
+!i122 -1
+Z14 L0 470
+R5
+r1
+!s85 0
+31
+Z15 !s108 1644285252.000000
+Z16 !s107 C:/Users/Kai/Desktop/test2_RP/synthesis/test2.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|
+Z17 !s90 -reportprogress|300|-sv|-mfcu|-work|postsynth|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/synthesis/test2.v|
+!s101 -O0
+!i113 1
+R8
+R10
+vde64_2
+R1
+!s110 1643282077
+!i10b 1
+!s100 ccModG61YDKgdc[G^UbU22
+!s11b fSg[aFYdE0gf0T2gPDDN70
+IYZn8SRkI9WJ31Eb:_0>?j0
+R3
+S1
+R0
+w1643282068
+R12
+R13
+!i122 -1
+R14
+R5
+r1
+!s85 0
+31
+!s108 1643282077.000000
+!s107 C:/Users/Kai/Desktop/test2_RP/synthesis/test2.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|
+!s90 -reportprogress|300|-sv|-mfcu|-work|postsynth|C:/Users/Kai/Desktop/test2_RP/hdl/PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|C:/Users/Kai/Desktop/test2_RP/synthesis/test2.v|
+!s101 -O0
+!i113 1
+R8
+R10
+vde_v1
+R1
+R2
+!i10b 1
+!s100 72h<b1E2jA@Yg>eSMY77z2
+!s11b QNZO9YciQ:6g:lZOnik[N2
+IZXChb_=b:lGW9jc]S`GlR2
+R3
+S1
+R0
+R11
+R12
+R13
+!i122 -1
+L0 805
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+!i113 1
+R8
+R10
+ven64_RP2
+R1
+R2
+!i10b 1
+!s100 a92PJIOIWFL_^_cf`7ZS>0
+!s11b V:9^VU`67>;jnb1LJA_Bn0
+IP6[=>Mh7_nU6f23cSO4M93
+R3
+S1
+R0
+R11
+R12
+R13
+!i122 -1
+L0 182
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+!i113 1
+R8
+R10
+nen64_@r@p2
+verror_gen
+R1
+R2
+!i10b 1
+!s100 :6mlKEbc>cWYofX1KRC>e1
+!s11b W7JL3mOUfK0IE<lAigEiO3
+I=G_SzW=<=nBkRUL@MFkWb2
+R3
+S1
+R0
+R11
+R12
+R13
+!i122 -1
+L0 1494
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+!i113 1
+R8
+R10
+vPF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM
+R1
+R2
+!i10b 1
+!s100 d_QKDLo4F72FQCh_h<39?3
+!s11b lL>in4HjF>j>nCTM>_>b61
+IlTAlb^_N6LD8FZ]lmClBj2
+R3
+S1
+R0
+R11
+R12
+R13
+!i122 -1
+L0 1744
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+!i113 1
+R8
+R10
+n@p@f_@s@r@a@m_@a@h@b@l_@a@x@i_@c1_@p@f_@t@p@s@r@a@m_@a@h@b_@a@x@i_0_@p@f_@t@p@s@r@a@m
+vPF_TPSRAM_C0
+R1
+R2
+!i10b 1
+!s100 BQQfh::QokIL?58]TU8=:2
+!s11b >hQSc?R^i80lVMCCL7NhF2
+IfBdg]5jOSB0<8OT[F:NWC1
+R3
+S1
+R0
+R11
+R12
+R13
+!i122 -1
+L0 1452
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+!i113 1
+R8
+R10
+n@p@f_@t@p@s@r@a@m_@c0
+vPF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM
+R1
+R2
+!i10b 1
+!s100 F7><=I=kc3]4mg8XOz0E81
+!s11b [U`iK@WQ^0j<EG;Nh^P7Q2
+I:=oiM4ZNmDeN]GWHQYbok3
+R3
+S1
+R0
+R11
+R12
+R13
+!i122 -1
+L0 859
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+!i113 1
+R8
+R10
+n@p@f_@t@p@s@r@a@m_@c0_@p@f_@t@p@s@r@a@m_@c0_0_@p@f_@t@p@s@r@a@m
+vtest2
+R1
+R2
+!i10b 1
+!s100 IMzYFP=fL9BD]DXINT47e2
+!s11b 4SVP^KmKSL4ClHmV=`iQ@2
+I;QJbYoh`8lMEnif2V_gDU1
+R3
+S1
+R0
+R11
+R12
+R13
+!i122 -1
+L0 9003
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+!i113 1
+R8
+R10
+vtest2_tb
+R1
+R2
+!i10b 1
+!s100 JedoiB`ToN3<Jk7A@EdV?0
+!s11b XVzLL;@hT7_@nhl:3mHDK3
+In;3_JjHc]@AXb;l@OGXa;3
+R3
+S1
+R0
+w1644255286
+8C:/Users/Kai/Desktop/test2_RP/stimulus/test2_tb.v
+FC:/Users/Kai/Desktop/test2_RP/stimulus/test2_tb.v
+!i122 -1
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z18 !s107 C:/Users/Kai/Desktop/test2_RP/stimulus/test2_tb.v|C:/Users/Kai/Desktop/test2_RP/hdl/comb.v|
+R7
+!s101 -O0
+!i113 1
+R8
+R9
+R10
+vtest6_for_compare
+R1
+R2
+!i10b 1
+!s100 k45z9o9>bXRoNf@HRR`K40
+!s11b BB]92?ZKRPHX6k:=Ud;DD2
+I1Jl^h30Q;lmaGYB<a8D623
+R3
+S1
+R0
+R11
+R12
+R13
+!i122 -1
+L0 5
+R5
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+!i113 1
+R8
+R10

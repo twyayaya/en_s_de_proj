@@ -1,0 +1,12 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.5 SP1 (Version 12.900.11.2)
+
+Date      :  Sat Jan 22 14:37:49 2022
+Project   :  C:\Users\Kai\Desktop\test2_RP
+Component :  PF_TPSRAM_C0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Kai/Desktop/test2_RP/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0.v
+    C:/Users/Kai/Desktop/test2_RP/component/work/PF_TPSRAM_C0/PF_TPSRAM_C0_0/PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v
+

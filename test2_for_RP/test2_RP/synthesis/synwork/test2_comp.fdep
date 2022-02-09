@@ -1,0 +1,149 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Kai\\Desktop\\test2_RP\\synthesis\\synwork\\test2_comp.srs|-top|test2|-prodtype|synplify_pro|-infer_seqShift|-actel|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Users\\Kai\\Desktop\\test2_RP\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib\\generic\\acg5.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\bin64\\c_ver.exe":1592742881
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib\\generic\\acg5.v":1592743044
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib\\vlog\\hypermods.v":1592743076
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib\\vlog\\umr_capim.v":1592743076
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1592743076
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.5\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1592743076
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\component\\polarfire_syn_comps.v":1644255294
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\hdl\\comb.v":1642838424
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\component\\work\\PF_TPSRAM_C0\\PF_TPSRAM_C0.v":1642833469
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\component\\work\\test2\\test2.v":1644255288
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\hdl\\PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v":1643297281
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\hdl\\test2_RP_HDL\\delay_a_clock.v":1642834262
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\hdl\\test2_RP_HDL\\error_gen.v":1642836938
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\hdl\\test2_RP_HDL\\HDL_RP\\de_v1\\de64_1.v":1642825599
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\hdl\\test2_RP_HDL\\HDL_RP\\de_v1\\de64_2.v":1642824983
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\hdl\\test2_RP_HDL\\HDL_RP\\de_v1\\de_v1.v":1642824991
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\hdl\\test2_RP_HDL\\HDL_RP\\en64_RP.v":1642823983
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\hdl\\test2_RP_HDL\\test5.v":1642823983
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\hdl\\test2_RP_HDL\\test6.v":1642839929
+#CUR:"C:\\Users\\Kai\\Desktop\\test2_RP\\component\\work\\PF_TPSRAM_C0\\PF_TPSRAM_C0_0\\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v":1642833469
+0			"C:\Users\Kai\Desktop\test2_RP\component\polarfire_syn_comps.v" verilog
+1			"C:\Users\Kai\Desktop\test2_RP\hdl\comb.v" verilog
+2			"C:\Users\Kai\Desktop\test2_RP\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.v" verilog
+3			"C:\Users\Kai\Desktop\test2_RP\component\work\test2\test2.v" verilog
+4			"C:\Users\Kai\Desktop\test2_RP\hdl\PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v" verilog
+5			"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v" verilog
+6			"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\error_gen.v" verilog
+7			"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de64_1.v" verilog
+8			"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de64_2.v" verilog
+9			"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de_v1.v" verilog
+10			"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\en64_RP.v" verilog
+11			"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v" verilog
+12			"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test6.v" verilog
+13			"C:\Users\Kai\Desktop\test2_RP\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0_0\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 13
+3 12 11 2 4 6 10 5 9 1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 8 7
+10 -1
+11 -1
+12 -1
+13 -1
+#Dependency Lists(Users Of)
+0 -1
+1 3
+2 3
+3 -1
+4 3
+5 3
+6 3
+7 9
+8 9
+9 3
+10 3
+11 3
+12 3
+13 2
+#Design Unit to File Association
+module work de64_2 8
+module work de64_1 7
+module work test6_for_compare 12
+module work test5 11
+module work PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM 4
+module work error_gen 6
+module work en64_RP2 10
+module work delay_a_clock 5
+module work de_v1 9
+module work test2 3
+module work PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM 13
+module work PF_TPSRAM_C0 2
+module work comb 1
+module work CLKBUF_DIFF_ODT 0
+module work CLKBUF_DIFF 0
+module work CORELNKTMR_V 0
+module work XCVR 0
+module work XCVR_VV 0
+module work XCVR_TEST 0
+module work XCVR_REF_CLK 0
+module work XCVR_REF_CLK_P 0
+module work XCVR_REF_CLK_N 0
+module work XCVR_PMA 0
+module work XCVR_PIPE 0
+module work XCVR_PIPE_AXI1 0
+module work XCVR_PIPE_AXI0 0
+module work XCVR_DUAL_PCS 0
+module work XCVR_APB_LINK_V 0
+module work XCVR_APB_LINK 0
+module work XCVR_8B10B 0
+module work XCVR_64B6XB 0
+module work VREFCTRL 0
+module work VREFBANKDYN 0
+module work VOLTAGEDETECT 0
+module work USPI 0
+module work UPROM 0
+module work TX_PLL 0
+module work TVS 0
+module work TAMPER 0
+module work SYS_SERVICES 0
+module work SYSRESET 0
+module work SYSCTRL_RESET_STATUS 0
+module work SCB 0
+module work QUADRST 0
+module work QUADRST_PCIE 0
+module work PLL 0
+module work PF_SPI 0
+module work PCIE 0
+module work PCIE_COMMON 0
+module work OSC_RC2MHZ 0
+module work OSC_RC200MHZ 0
+module work OSC_RC160MHZ 0
+module work MSS 0
+module work LANERST 0
+module work LANECTRL 0
+module work IOD 0
+module work INIT 0
+module work ICB_NGMUX 0
+module work ICB_MUXING 0
+module work ICB_INT 0
+module work ICB_CLKSTOP 0
+module work ICB_CLKSTOP_EN 0
+module work ICB_CLKINT 0
+module work ICB_CLKDIV 0
+module work ICB_CLKDIVDELAY 0
+module work ICB_BANKCLK 0
+module work HS_IO_CLK 0
+module work GPSS_COMMON 0
+module work GLITCHDETECT 0
+module work ENFORCE 0
+module work DRI 0
+module work DLL 0
+module work DEBUG 0
+module work CRYPTO_SOC 0
+module work CRYPTO 0
+module work CRN_INT 0
+module work CRN_COMMON 0
+module work BANKEN 0
+module work BANKCTRL_HSIO 0
+module work BANKCTRL_GPIO 0
+module work BANKCTRLM 0
+module work APBS 0
+module work APBM 0

@@ -1,0 +1,9 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Interface 4LUT,Interface DFF,Single-Ended I/O,LSRAM 18K,Chip Globals
+PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_0/Primitives,908,2304,2304,0,64,0
+PF_TPSRAM_C0_0/PF_TPSRAM_C0_0/Primitives,0,288,288,0,8,0
+Primitives/Primitives,0,0,0,407,0,1
+de_v1_0/de1/Primitives,77,0,0,0,0,0
+en64_RP2_0/Primitives,73,0,0,0,0,0
+error_gen_0/Primitives,95,0,0,0,0,0
+test6_for_compare_0/Primitives,78,0,0,0,0,0

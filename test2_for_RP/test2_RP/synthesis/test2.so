@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>test2</design>
+	<target_verilog>C:\Users\Kai\Desktop\test2_RP\synthesis\test2.vm</target_verilog>
+</SynplifyOutput>

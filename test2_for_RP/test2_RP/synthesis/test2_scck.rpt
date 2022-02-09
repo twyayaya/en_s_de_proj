@@ -1,0 +1,47 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M
+Install: C:\Microsemi\Libero_SoC_v12.5\SynplifyPro
+OS: Windows 6.2
+
+Hostname: MSI
+
+Implementation : synthesis
+
+# Written on Tue Feb  8 01:35:04 2022
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "C:\Users\Kai\Desktop\test2_RP\designer\test2\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start         Requested     Requested     Clock        Clock                   Clock
+Level     Clock         Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------------------
+0 -       test2|CLK     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     144  
+==============================================================================================
+
+
+Clock Load Summary
+******************
+
+              Clock     Source        Clock Pin                                                                          Non-clock Pin     Non-clock Pin
+Clock         Load      Pin           Seq Example                                                                        Seq Example       Comb Example 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+test2|CLK     144       CLK(port)     PF_TPSRAM_C0_0.PF_TPSRAM_C0_0.PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C2.B_CLK     -                 I_1.A(CLKINT)
+========================================================================================================================================================

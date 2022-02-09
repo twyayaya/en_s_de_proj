@@ -1,0 +1,13 @@
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN115 :"c:\users\kai\desktop\test2_rp\component\work\test2\test2.v":106:5:106:10|Removing instance comb_0 (in view: work.test2(verilog)) of type view:work.comb(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\kai\desktop\test2_rp\component\work\test2\test2.v":125:14:125:28|Removing instance delay_a_clock_0 (in view: work.test2(verilog)) of type view:work.delay_a_clock(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\kai\desktop\test2_rp\component\work\test2\test2.v":181:6:181:12|Removing instance test5_0 (in view: work.test2(verilog)) of type view:work.test5_1(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\kai\desktop\test2_rp\component\work\test2\test2.v":189:6:189:12|Removing instance test5_1 (in view: work.test2(verilog)) of type view:work.test5_0(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\kai\desktop\test2_rp\hdl\test2_rp_hdl\hdl_rp\de_v1\de_v1.v":44:7:44:9|Removing instance de2 (in view: work.de_v1(verilog)) of type view:work.de64_2(verilog) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist test2 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file C:\Users\Kai\Desktop\test2_RP\synthesis\test2.sap.

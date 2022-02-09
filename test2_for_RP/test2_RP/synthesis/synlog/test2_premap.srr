@@ -1,0 +1,94 @@
+# Tue Feb  8 01:35:04 2022
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M
+Install: C:\Microsemi\Libero_SoC_v12.5\SynplifyPro
+OS: Windows 6.2
+
+Hostname: MSI
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version map202003act, Build 065R, Built Jun 11 2020 10:26:41, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 117MB peak: 117MB)
+
+Reading constraint file: C:\Users\Kai\Desktop\test2_RP\designer\test2\synthesis.fdc
+@L: C:\Users\Kai\Desktop\test2_RP\synthesis\test2_scck.rpt 
+See clock summary report "C:\Users\Kai\Desktop\test2_RP\synthesis\test2_scck.rpt"
+@N: MF472 |Synthesis running in Automatic Compile Point mode
+@N: MF474 |No compile point is identified in Automatic Compile Point mode
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 131MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 132MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@N: BN115 :"c:\users\kai\desktop\test2_rp\component\work\test2\test2.v":106:5:106:10|Removing instance comb_0 (in view: work.test2(verilog)) of type view:work.comb(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\kai\desktop\test2_rp\component\work\test2\test2.v":125:14:125:28|Removing instance delay_a_clock_0 (in view: work.test2(verilog)) of type view:work.delay_a_clock(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\kai\desktop\test2_rp\component\work\test2\test2.v":181:6:181:12|Removing instance test5_0 (in view: work.test2(verilog)) of type view:work.test5_1(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\kai\desktop\test2_rp\component\work\test2\test2.v":189:6:189:12|Removing instance test5_1 (in view: work.test2(verilog)) of type view:work.test5_0(verilog) because it does not drive other instances.
+@N: BN115 :"c:\users\kai\desktop\test2_rp\hdl\test2_rp_hdl\hdl_rp\de_v1\de_v1.v":44:7:44:9|Removing instance de2 (in view: work.de_v1(verilog)) of type view:work.de64_2(verilog) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=952 on top level netlist test2 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+
+Clock Summary
+******************
+
+          Start         Requested     Requested     Clock        Clock                   Clock
+Level     Clock         Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------------------
+0 -       test2|CLK     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     144  
+==============================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+              Clock     Source        Clock Pin                                                                          Non-clock Pin     Non-clock Pin
+Clock         Load      Pin           Seq Example                                                                        Seq Example       Comb Example 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+test2|CLK     144       CLK(port)     PF_TPSRAM_C0_0.PF_TPSRAM_C0_0.PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM_R0C2.B_CLK     -                 I_1.A(CLKINT)
+========================================================================================================================================================
+
+@W: MT530 :"c:\users\kai\desktop\test2_rp\hdl\pf_sram_ahbl_axi_c1_pf_tpsram_ahb_axi_0_pf_tpsram.v":5960:12:5960:65|Found inferred clock test2|CLK which controls 144 sequential elements including PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_0.PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R5C0. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\Kai\Desktop\test2_RP\synthesis\test2.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 172MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 172MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 86MB peak: 172MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Tue Feb  8 01:35:06 2022
+
+###########################################################]

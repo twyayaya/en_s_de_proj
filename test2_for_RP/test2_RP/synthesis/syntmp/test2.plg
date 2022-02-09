@@ -1,0 +1,12 @@
+@P:  Worst Slack : NA
+@P:  test2|CLK - Estimated Frequency : NA
+@P:  test2|CLK - Requested Frequency : 100.0 MHz
+@P:  test2|CLK - Estimated Period : NA
+@P:  test2|CLK - Requested Period : 10.000
+@P:  test2|CLK - Slack : NA
+@P: test2 Part : mpf300tfcg1152-1
+@P: test2 Register bits  : 0 
+@P: test2 DSP Blocks  : 0
+@P: test2 I/O primitives : 407
+@P: test2 RAM1K20 :  72
+@P:  CPU Time : 0h:00m:07s

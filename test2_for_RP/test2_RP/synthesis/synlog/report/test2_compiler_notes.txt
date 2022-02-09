@@ -1,0 +1,30 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\comb.v":21:7:21:10|Synthesizing module comb in library work.
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de64_1.v":3:7:3:12|Synthesizing module de64_1 in library work.
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de64_2.v":3:7:3:12|Synthesizing module de64_2 in library work.
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de_v1.v":3:7:3:11|Synthesizing module de_v1 in library work.
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":1:7:1:19|Synthesizing module delay_a_clock in library work.
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\en64_RP.v":3:7:3:14|Synthesizing module en64_RP2 in library work.
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\error_gen.v":4:7:4:15|Synthesizing module error_gen in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":199:7:199:9|Synthesizing module OR4 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":96:7:96:10|Synthesizing module CFG3 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":133:7:133:9|Synthesizing module OR2 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":578:7:578:13|Synthesizing module RAM1K20 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":102:7:102:10|Synthesizing module CFG2 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":223:7:223:9|Synthesizing module INV in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.5\SynplifyPro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v":5:7:5:55|Synthesizing module PF_SRAM_AHBL_AXI_C1_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM in library work.
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0_0\PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM.v":5:7:5:43|Synthesizing module PF_TPSRAM_C0_PF_TPSRAM_C0_0_PF_TPSRAM in library work.
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\component\work\PF_TPSRAM_C0\PF_TPSRAM_C0.v":9:7:9:18|Synthesizing module PF_TPSRAM_C0 in library work.
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test5.v":3:7:3:11|Synthesizing module test5 in library work.
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test6.v":3:7:3:23|Synthesizing module test6_for_compare in library work.
+@N: CG364 :"C:\Users\Kai\Desktop\test2_RP\component\work\test2\test2.v":9:7:9:11|Synthesizing module test2 in library work.
+@N: CL159 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\test6.v":6:13:6:20|Input o_R_DATA is unused.
+@N: CL159 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\en64_RP.v":6:10:6:12|Input clk is unused.
+@N: CL159 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\delay_a_clock.v":4:10:4:12|Input clk is unused.
+@N: CL159 :"C:\Users\Kai\Desktop\test2_RP\hdl\test2_RP_HDL\HDL_RP\de_v1\de64_1.v":5:10:5:12|Input clk is unused.
+@N|Running in 64-bit mode
+
